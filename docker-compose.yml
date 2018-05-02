@@ -50,16 +50,6 @@ services:
     entrypoint: wp
     command: "--info"
 
-  plugin:
-    build: wp-plugin
-    depends_on:
-      - wp
-    volumes:
-      - ./wp-plugin:/home/app-user/app
-      - /home/app-user/app/node_modules
-    environment:
-      NODE_ENV: development
-
 volumes:
   db_data:
   wp_data:
