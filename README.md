@@ -1,4 +1,4 @@
-# Wordpress Plugin Dev Tool
+# Wordpress Test Bench
 
 ## Get Started
 1. Run `make` to build images and services.
